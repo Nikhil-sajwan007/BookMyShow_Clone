@@ -66,8 +66,8 @@ body{
 
 .NavBar{
     height: 64px;
-    display: flex;
-    align-items: center;
+    
+    
 }
 
 
@@ -82,6 +82,7 @@ body{
 .NavBar .logo img{
 
     width: 120px;
+    
     
 
 }
@@ -133,7 +134,7 @@ body{
     border-radius: 4px;
     width: 60%;
     align-content: center;
-    padding: 10px 10px;
+    padding: 5px 10px;
     margin-left: 20px;
 }
 
@@ -147,6 +148,13 @@ body{
     width: 80%;
     margin-left: 10px;
     
+}
+
+.NavBar select{
+
+    border: none;
+    outline: none;
+    margin-right: 24px;
 }
 
 
@@ -174,6 +182,11 @@ body{
     font-weight: 400;
     font-size: 12px;
     cursor: pointer;
+}
+
+.btn-1{
+
+    margin-right: 24px;
 }
 
 
@@ -237,3 +250,27 @@ body{
     font-size: 12px;
 }
 
+
+
+
+/* hero section css start from here  */
+
+
+
+.hero-section{
+
+    background-color: var(--background-color);
+    max-width: 100%;
+    padding: 20px 0px;
+    
+}
+
+.inner-hero{
+
+  background-image: url(/Images/main-hero-banner-slider-mockup.jpg);
+  min-height: 300px;
+  width: 80%;
+  border-radius: 10px;
+  margin: 0 auto;
+  
+}
