@@ -42,13 +42,18 @@ body{
 .only-d-flex{
 
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .d-inline-block{
 
     display: inline-block;
 }
+/* 
+.center-flex{
+
+    align-items: center;
+} */
 
 
 
@@ -59,10 +64,62 @@ body{
 /* navbar css start from here  */
 
 
+.NavBar{
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+
+.NavBar .logo{
+
+    order: 1;
+    flex-grow: 0;
+    margin : auto;
+
+}
+
 .NavBar .logo img{
 
     width: 120px;
+    
+
 }
+
+.NavBar .searchBar{
+
+    order: 2;
+    flex-grow: 1;
+    margin : auto;
+    
+}
+
+.NavBar .city{
+
+    order: 3;
+    flex-grow: 0;
+    margin : auto;
+
+
+}
+
+.NavBar .signIn-section{
+
+    order : 4;
+    flex-grow : 0;
+    margin : auto;
+}
+
+.NavBar .smallMenu{
+
+    order : 5;
+    flex-grow : 0;
+    margin: auto;
+}
+
+
+
+
 
 
 /* Navigation bar search  css start from here  */
@@ -70,13 +127,14 @@ body{
 
 
 
-.NavBar .searchBar{
+.NavBar .searchBar .searchBox{
 
-    border: 1px groove gray;
+    border: 1px groove rgba(128, 128, 128, 0.338);
     border-radius: 4px;
-    width: 30%;
+    width: 60%;
     align-content: center;
-    padding: 0px 10px;
+    padding: 10px 10px;
+    margin-left: 20px;
 }
 
 
@@ -130,16 +188,52 @@ body{
 
 /* navigation bottom bar css start from here  */
 
+
+
+
+.headerBar{
+
+   
+
+   
+}
+
+.inner-section-headerBar{
+
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+
+
 .headerBar{
 
     background-color: var(--background-color);
     height: 40px;
+    /* align-items: center; */
+    /* font-size: 12px; */
     align-items: center;
-    font-size: 12px;
+    display: flex;
 }
 
-.headerBar li{
+.headerBar .menuLeft{
 
-    padding: 0 12px;
+    align-items: center;
+}
+
+.headerBar .menuLeft li{
+
+    padding: 0px 12px 0px 0px;
+    font-size: 14px;
+}
+
+.headerBar .menuRight li{
+
+    padding: 0px 0px 0px 12px;
+    font-size: 12px;
 }
 
