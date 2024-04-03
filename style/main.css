@@ -274,3 +274,32 @@ body{
   margin: 0 auto;
   
 }
+
+
+
+/* movies card css start from here  */
+
+
+.movies{
+
+    /* display: flex; */
+    max-width: 1280px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.movies-inner{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.moviesCards{
+
+    display: grid;
+    padding-top : 2rem;
+}
+
