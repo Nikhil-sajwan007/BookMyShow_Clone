@@ -22,7 +22,7 @@ body{
     --background-color: #f5f5f5;
     --dark-gray-background : #ebebeb;
     --Primary-color: #f84464;
-    --blue: #2b3149;
+    --blue-background: #2b3149;
     --white: #ffffff;
     --black: #000000;
     --heading-font: "Roboto", sans-serif;
@@ -406,7 +406,7 @@ body{
 
 .cat-poster-image-1{
 
-    background-image: url(/Images/crew-2024-et00344265-1709532971.jpg);
+    background-image: url(../Images/ipl-2024-web-collection-202403130643.png);
     background-size: cover;
     height: 14rem;
     border-radius: 10px;
