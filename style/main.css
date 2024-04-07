@@ -300,6 +300,7 @@ body{
 .movies .movies-inner p{
 
     font-size: 0.8rem;
+    display: inline-block;
 }
 
 .movies .movies-inner p a{
@@ -307,17 +308,18 @@ body{
 
     text-decoration: none;
     color: var(--Primary-color);
-    text-align: center;
+    display: inline-block;
 }
 
-.movies .movies-inner p::after{
+.movies .movies-inner a::after{
 
     content: "";
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
     background: url(../Images/logo-main.png) no-repeat;
     background-size: contain;
+    margin: auto;
     
 }
 
@@ -372,4 +374,23 @@ body{
 .movie-details p{
 
     margin-top: 0.4rem;
+}
+
+
+
+
+/* small banner css start from here  */
+
+
+.small-banner{
+
+    border: 1px solid red;
+    background: url(../Images/stream-leadin-web-collection-202210241242.jpg) no-repeat;
+    width: 100%;
+    height: 6rem;
+    
+
+
+
+
 }
