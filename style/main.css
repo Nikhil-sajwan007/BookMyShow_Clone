@@ -398,3 +398,18 @@ body{
 
 
 }
+
+
+
+
+/* category list start from here  */
+
+.cat-poster-image-1{
+
+    background-image: url(/Images/crew-2024-et00344265-1709532971.jpg);
+    background-size: cover;
+    height: 14rem;
+    border-radius: 10px;
+    position: relative;
+
+}
