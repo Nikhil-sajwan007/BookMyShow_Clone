@@ -286,6 +286,7 @@ body{
     /* max-width: 1280px; */
     width: 80%;
     margin: 0 auto;
+    padding: 1rem 1rem;
 }
 
 .movies-inner{
@@ -296,11 +297,34 @@ body{
 }
 
 
+.movies .movies-inner p{
+
+    font-size: 0.8rem;
+}
+
+.movies .movies-inner p a{
+
+
+    text-decoration: none;
+    color: var(--Primary-color);
+    text-align: center;
+}
+
+.movies .movies-inner p::after{
+
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../Images/logo-main.png) no-repeat;
+    background-size: contain;
+    
+}
 
 .moviesCards{
 
     display: grid;
-    padding-top : 2rem;
+    padding-top : 0.2rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 2rem;
 
@@ -343,4 +367,9 @@ body{
 .movie-details{
 
     margin-top: 0.8rem;
+}
+
+.movie-details p{
+
+    margin-top: 0.4rem;
 }
