@@ -283,7 +283,7 @@ body{
 .movies{
 
     /* display: flex; */
-    max-width: 1280px;
+    /* max-width: 1280px; */
     width: 80%;
     margin: 0 auto;
 }
@@ -301,5 +301,46 @@ body{
 
     display: grid;
     padding-top : 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+
 }
 
+
+.poster-image-1{
+
+    background-image: url(/Images/crew-2024-et00344265-1709532971.jpg);
+    background-size: cover;
+    height: 45vh;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.review{
+
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 10px;
+    display: flex;
+    
+}
+
+.review ion-icon{
+
+    color: red;
+}
+
+.review p{
+
+    color: var(--white);
+    margin-left: 0.4rem;
+}
+
+.movie-details{
+
+    margin-top: 0.8rem;
+}
