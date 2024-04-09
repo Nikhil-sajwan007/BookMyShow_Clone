@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    $('.your-class').slick({
+    $('.moviesCards').slick({
       setting-name: setting-value
     });
   });
+
+  
