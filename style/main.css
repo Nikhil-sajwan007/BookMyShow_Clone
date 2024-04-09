@@ -413,3 +413,49 @@ body{
     position: relative;
 
 }
+
+
+/* blue backgrond section start from here  */
+
+
+.blue-bg{
+
+    background-color: var(--blue-background);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.head-text{
+
+    display: flex;
+      
+
+}
+
+.head-text .play-icon ion-icon{
+
+    color: var(--Primary-color);
+    font-size: 4rem;
+    align-content: center;
+}
+
+.blue-bg-text{
+
+    margin-left: 0.5rem;
+    align-content: center;
+
+}
+
+.blue-bg-text h2{
+
+    color: var(--white);
+}
+
+.blue-bg-text p{
+
+    color: var(--white);
+    font-size: 14px;
+}
+
+
+
