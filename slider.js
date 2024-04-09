@@ -1,7 +1,7 @@
-$(document).ready(function(){
-    $('.moviesCards').slick({
-      setting-name: setting-value
-    });
-  });
-
+$('.your-class').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
   
