@@ -421,6 +421,8 @@ body{
     padding-bottom: 3rem;
 }
 
+
+
 .head-text{
 
     display: flex;
@@ -442,7 +444,12 @@ body{
 
 }
 
-.blue-bg-text h2{
+/* .blue-bg-text h2, .left-content h2, .left-content p, .flag h2{
+
+    color: var(--white);
+} */
+
+.blue-bg-text h2, .movies-inner, .moviesCards, .moviesCards, .moviesCards{
 
     color: var(--white);
 }
@@ -452,6 +459,20 @@ body{
     color: var(--white);
     font-size: 14px;
 }
+
+.flag{
+
+    background-color: var(--Primary-color);
+    width: 60%;  
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    border-radius: 0 0 0px 10px;
+    padding: 0.3rem 0.3rem;
+    
+}
+
+
 
 
 
