@@ -500,4 +500,7 @@ body {
 .footer-top-bar{
 
     background-color: var(--blue-background);
+    font-size: large; 
+    /* this is only for testing of git pull push */
+
 }
