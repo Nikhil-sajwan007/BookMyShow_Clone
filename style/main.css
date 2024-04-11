@@ -495,3 +495,9 @@ body {
 
 /* trending searches cards css ends here  */
 
+
+
+.footer-top-bar{
+
+    background-color: var(--blue-background);
+}
