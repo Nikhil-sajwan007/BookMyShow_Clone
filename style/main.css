@@ -10,7 +10,7 @@
 
 }
 
-body{
+body {
 
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -20,36 +20,37 @@ body{
 :root {
 
     --background-color: #f5f5f5;
-    --dark-gray-background : #ebebeb;
+    --dark-gray-background: #ebebeb;
     --Primary-color: #f84464;
     --blue-background: #2b3149;
     --white: #ffffff;
     --black: #000000;
     --heading-font: "Roboto", sans-serif;
-    --paragraph-font : "Roboto", sans-serif;
+    --paragraph-font: "Roboto", sans-serif;
 
 }
 
 /* boxed width inner container  */
 
 
-.inner-container{
+.inner-container {
 
     width: 80%;
     margin: 0 auto;
     /* border : 1px solid red; */
 }
 
-.only-d-flex{
+.only-d-flex {
 
     display: flex;
     align-items: center;
 }
 
-.d-inline-block{
+.d-inline-block {
 
     display: inline-block;
 }
+
 /* 
 .center-flex{
 
@@ -65,57 +66,57 @@ body{
 /* navbar css start from here  */
 
 
-.NavBar{
+.NavBar {
     height: 64px;
-    
-    
+
+
 }
 
 
-.NavBar .logo{
+.NavBar .logo {
 
     order: 1;
     flex-grow: 0;
-    margin : auto;
+    margin: auto;
 
 }
 
-.NavBar .logo img{
+.NavBar .logo img {
 
     width: 120px;
-    
-    
+
+
 
 }
 
-.NavBar .searchBar{
+.NavBar .searchBar {
 
     order: 2;
     flex-grow: 1;
-    margin : auto;
-    
+    margin: auto;
+
 }
 
-.NavBar .city{
+.NavBar .city {
 
     order: 3;
     flex-grow: 0;
-    margin : auto;
+    margin: auto;
 
 
 }
 
-.NavBar .signIn-section{
+.NavBar .signIn-section {
 
-    order : 4;
-    flex-grow : 0;
-    margin : auto;
+    order: 4;
+    flex-grow: 0;
+    margin: auto;
 }
 
-.NavBar .smallMenu{
+.NavBar .smallMenu {
 
-    order : 5;
-    flex-grow : 0;
+    order: 5;
+    flex-grow: 0;
     margin: auto;
 }
 
@@ -129,7 +130,7 @@ body{
 
 
 
-.NavBar .searchBar .searchBox{
+.NavBar .searchBar .searchBox {
 
     border: 1px groove rgba(128, 128, 128, 0.338);
     border-radius: 4px;
@@ -141,17 +142,17 @@ body{
 
 
 
-.NavBar .searchBar input{
+.NavBar .searchBar input {
 
     border: none;
     box-shadow: none;
     outline: none;
     width: 80%;
     margin-left: 10px;
-    
+
 }
 
-.NavBar select{
+.NavBar select {
 
     border: none;
     outline: none;
@@ -172,12 +173,12 @@ body{
 
 /* navigation bar button  and hamburger menu css start from here */
 
-.btn{
+.btn {
 
     padding: 0.3rem 0.6rem;
     background-color: var(--Primary-color);
     color: var(--white);
-    border : none;
+    border: none;
     border-radius: 4px;
     font-family: var(--paragraph-font);
     font-weight: 400;
@@ -185,13 +186,13 @@ body{
     cursor: pointer;
 }
 
-.btn-1{
+.btn-1 {
 
     margin-right: 24px;
 }
 
 
-.smallMenu ion-icon{
+.smallMenu ion-icon {
 
     font-size: 30px;
 }
@@ -205,14 +206,9 @@ body{
 
 
 
-.headerBar{
+.headerBar {}
 
-   
-
-   
-}
-
-.inner-section-headerBar{
+.inner-section-headerBar {
 
     width: 80%;
     display: flex;
@@ -224,7 +220,7 @@ body{
 
 
 
-.headerBar{
+.headerBar {
 
     background-color: var(--background-color);
     height: 40px;
@@ -234,18 +230,18 @@ body{
     display: flex;
 }
 
-.headerBar .menuLeft{
+.headerBar .menuLeft {
 
     align-items: center;
 }
 
-.headerBar .menuLeft li{
+.headerBar .menuLeft li {
 
     padding: 0px 12px 0px 0px;
     font-size: 14px;
 }
 
-.headerBar .menuRight li{
+.headerBar .menuRight li {
 
     padding: 0px 0px 0px 12px;
     font-size: 12px;
@@ -258,22 +254,22 @@ body{
 
 
 
-.hero-section{
+.hero-section {
 
     background-color: var(--dark-gray-background);
     max-width: 100%;
     padding: 20px 0px;
-    
+
 }
 
-.inner-hero{
+.inner-hero {
 
-  background-image: url(/Images/main-hero-banner-slider-mockup.jpg);
-  min-height: 300px;
-  width: 80%;
-  border-radius: 10px;
-  margin: 0 auto;
-  
+    background-image: url(/Images/main-hero-banner-slider-mockup.jpg);
+    min-height: 300px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+
 }
 
 
@@ -281,7 +277,7 @@ body{
 /* movies card css start from here  */
 
 
-.movies{
+.movies {
 
     /* display: flex; */
     /* max-width: 1280px; */
@@ -290,7 +286,7 @@ body{
     padding: 1rem 1rem;
 }
 
-.movies-inner{
+.movies-inner {
 
     display: flex;
     justify-content: space-between;
@@ -298,13 +294,13 @@ body{
 }
 
 
-.movies .movies-inner p{
+.movies .movies-inner p {
 
     font-size: 0.8rem;
-   
+
 }
 
-.movies .movies-inner p a{
+.movies .movies-inner p a {
 
 
     text-decoration: none;
@@ -312,7 +308,7 @@ body{
     display: inline-block;
 }
 
-.movies .movies-inner a::after{
+.movies .movies-inner a::after {
 
     content: "";
     display: inline-block;
@@ -321,20 +317,20 @@ body{
     background: url(../Images/logo-main.png) no-repeat;
     background-size: contain;
     margin: auto;
-    
+
 }
 
-.moviesCards{
+.moviesCards {
 
     display: grid;
-    padding-top : 0.2rem;
+    padding-top: 0.2rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 2rem;
 
 }
 
 
-.poster-image-1{
+.poster-image-1 {
 
     background-image: url(/Images/crew-2024-et00344265-1709532971.jpg);
     background-size: cover;
@@ -344,7 +340,7 @@ body{
 
 }
 
-.review{
+.review {
 
     background-color: black;
     position: absolute;
@@ -353,26 +349,26 @@ body{
     border-radius: 0 0 10px 10px;
     padding: 10px 10px;
     display: flex;
-    
+
 }
 
-.review ion-icon{
+.review ion-icon {
 
     color: red;
 }
 
-.review p{
+.review p {
 
     color: var(--white);
     margin-left: 0.4rem;
 }
 
-.movie-details{
+.movie-details {
 
     margin-top: 0.8rem;
 }
 
-.movie-details p{
+.movie-details p {
 
     margin-top: 0.4rem;
 }
@@ -383,7 +379,7 @@ body{
 /* small banner css start from here  */
 
 
-.small-banner{
+.small-banner {
 
     /* border: 1px solid red; */
     background: url(../Images/stream-leadin-web-collection-202210241242.jpg) no-repeat;
@@ -392,7 +388,7 @@ body{
     border-radius: 8px;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    
+
 }
 
 
@@ -400,7 +396,7 @@ body{
 
 /* category list start from here  */
 
-.cat-poster-image-1{
+.cat-poster-image-1 {
 
     background-image: url(../Images/ipl-2024-web-collection-202403130643.png);
     background-size: cover;
@@ -414,7 +410,7 @@ body{
 /* blue backgrond section start from here  */
 
 
-.blue-bg{
+.blue-bg {
 
     background-color: var(--blue-background);
     padding-top: 3rem;
@@ -423,21 +419,21 @@ body{
 
 
 
-.head-text{
+.head-text {
 
     display: flex;
-      
+
 
 }
 
-.head-text .play-icon ion-icon{
+.head-text .play-icon ion-icon {
 
     color: var(--Primary-color);
     font-size: 4rem;
     align-content: center;
 }
 
-.blue-bg-text{
+.blue-bg-text {
 
     margin-left: 0.5rem;
     align-content: center;
@@ -449,27 +445,27 @@ body{
     color: var(--white);
 } */
 
-.text-white{
+.text-white {
 
     color: var(--white);
 }
 
-.blue-bg-text p{
+.blue-bg-text p {
 
     color: var(--white);
     font-size: 14px;
 }
 
-.flag{
+.flag {
 
     background-color: var(--Primary-color);
-    width: 60%;  
+    width: 60%;
     position: absolute;
     bottom: 0;
     width: 70%;
     border-radius: 0 0 0px 10px;
     padding: 0.3rem 0.3rem;
-    
+
 }
 
 
@@ -482,26 +478,19 @@ body{
 
 
 
-.trending-searches{
+.trending-searches {}
 
-
-
-}
-
-.inner-ts{
+.inner-ts {
 
     display: grid;
-    grid-template-columns: ;
+    grid-template-columns: repeat(5, 1fr) ;
 }
 
 
-.trend-box{
+.trend-box {
 
     background-color: var(--white);
     border: 1px solid var(--Primary-color);
 }
-
-
-
 
 /* trending searches cards css ends here  */
