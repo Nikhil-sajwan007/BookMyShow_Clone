@@ -490,7 +490,8 @@ body {
 .trend-box {
 
     background-color: var(--white);
-    border: 1px solid var(--Primary-color);
+    border: 2px solid var(--Primary-color);
 }
 
 /* trending searches cards css ends here  */
+
