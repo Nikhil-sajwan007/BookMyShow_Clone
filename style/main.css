@@ -449,7 +449,7 @@ body{
     color: var(--white);
 } */
 
-.blue-bg-text h2, .movies-inner, .moviesCards, .moviesCards, .moviesCards{
+.text-white{
 
     color: var(--white);
 }
