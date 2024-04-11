@@ -501,6 +501,7 @@ body {
 
     background-color: var(--blue-background);
     font-size: large; 
+    color: var(--white);
     /* this is only for testing of git pull push */
 
 }
