@@ -476,3 +476,32 @@ body{
 
 
 
+
+
+/* trending searches cards css start from here  */
+
+
+
+.trending-searches{
+
+
+
+}
+
+.inner-ts{
+
+    display: grid;
+    grid-template-columns: ;
+}
+
+
+.trend-box{
+
+    background-color: var(--white);
+    border: 1px solid var(--Primary-color);
+}
+
+
+
+
+/* trending searches cards css ends here  */
