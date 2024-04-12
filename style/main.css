@@ -23,6 +23,9 @@ body {
     --dark-gray-background: #ebebeb;
     --Primary-color: #f84464;
     --blue-background: #2b3149;
+    --dark-blue-gray : #313035;
+    --light-blue-gray : #404043;
+    --blue-gray : #333338;
     --white: #ffffff;
     --black: #000000;
     --heading-font: "Roboto", sans-serif;
@@ -499,9 +502,6 @@ body {
 
 .footer-top-bar{
 
-    background-color: var(--blue-background);
-    font-size: large; 
-    color: var(--white);
-    /* this is only for testing of git pull push */
+background-color: var(--dark-blue-gray);
 
 }
