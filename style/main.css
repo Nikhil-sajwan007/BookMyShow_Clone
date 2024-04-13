@@ -505,3 +505,37 @@ body {
 background-color: var(--dark-blue-gray);
 
 }
+
+
+.box-1{
+
+    display: flex;
+    flex-grow: 0;
+}
+
+.box-1 ion-icon,p{
+
+    color: var(--white);
+}
+
+.box-1 p{
+
+    font-weight: bold;
+}
+
+.box-2{
+    
+    flex-grow: 1;
+}
+
+.box-3 .btn-3{
+
+    padding: 10px 26px;
+    font-size: 16px;
+}
+
+.box-3{
+
+    flex-grow: 0;
+}
+
