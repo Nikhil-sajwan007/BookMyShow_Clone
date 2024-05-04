@@ -503,6 +503,7 @@ body {
 .footer-top-bar{
 
 background-color: var(--dark-blue-gray);
+padding: 1rem 1rem;
 
 }
 
@@ -528,6 +529,8 @@ background-color: var(--dark-blue-gray);
 .box-2{
     
     flex-grow: 1;
+    padding-left: 2rem;
+    color: var(--white);
 }
 
 .box-3 .btn-3{
@@ -542,3 +545,30 @@ background-color: var(--dark-blue-gray);
     flex-grow: 0;
 }
 
+.footer-contact{
+    background-color: var(--light-blue-gray);
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+   
+
+}
+
+.footer-contact p{
+    
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+}
+
+.footer-contact i{
+
+    font-size: 3rem;
+    color: var(--white);
+    
+}
+.footer-contact .contact{
+
+    padding: 3rem 2rem;
+}
