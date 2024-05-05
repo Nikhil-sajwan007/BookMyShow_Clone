@@ -10,6 +10,11 @@
 
 }
 
+a{
+    text-decoration: none;
+    
+}
+
 body {
 
     font-family: "Roboto", sans-serif;
@@ -500,7 +505,7 @@ body {
 
 
 
-.footer-top-bar{
+.footer-top-bar, .footer-bottom-bar{
 
 background-color: var(--dark-blue-gray);
 padding: 1rem 1rem;
@@ -545,21 +550,37 @@ padding: 1rem 1rem;
     flex-grow: 0;
 }
 
-.footer-contact{
+.full-width-color{
+
     background-color: var(--light-blue-gray);
+}
+.footer-contact{
+  
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     color: var(--white);
+    width: 60%;
+    margin: 0 auto;
+    
    
 
+}
+
+.contact{
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .footer-contact p{
     
     text-transform: uppercase;
     font-weight: 200;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-top: 0.6rem;
+    
 }
 
 .footer-contact i{
@@ -571,4 +592,12 @@ padding: 1rem 1rem;
 .footer-contact .contact{
 
     padding: 3rem 2rem;
+}
+
+.bottom-content-list h4{
+
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 300;
 }
