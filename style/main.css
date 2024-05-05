@@ -12,6 +12,7 @@
 
 a{
     text-decoration: none;
+    color: var(--white);
     
 }
 
@@ -19,6 +20,7 @@ body {
 
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    background-color: var(--gray-white);
 
 }
 
@@ -32,6 +34,7 @@ body {
     --light-blue-gray : #404043;
     --blue-gray : #333338;
     --white: #ffffff;
+    --gray-white : #f5f5f5;
     --black: #000000;
     --heading-font: "Roboto", sans-serif;
     --paragraph-font: "Roboto", sans-serif;
@@ -491,14 +494,24 @@ body {
 .inner-ts {
 
     display: grid;
-    grid-template-columns: repeat(5, 1fr) ;
+    grid-template-columns: repeat(auto-fill, 1fr) ;
+    gap: 15px;
+    
 }
 
 
 .trend-box {
 
     background-color: var(--white);
-    border: 2px solid var(--Primary-color);
+    border: 1px groove rgba(128, 128, 128, 0.2);
+    padding: 14px 45px 12px 16px;
+}
+
+.trend-box h3{
+    color: var(--Primary-color);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
 /* trending searches cards css ends here  */
@@ -594,10 +607,28 @@ padding: 1rem 1rem;
     padding: 3rem 2rem;
 }
 
+.bottom-content-list{
+
+    padding: 1rem 1rem;
+}
 .bottom-content-list h4{
 
     color: var(--white);
     text-transform: uppercase;
     font-size: 0.8rem;
     font-weight: 300;
+}
+
+
+
+.bottom-content-list a{
+    margin-right: 0.8   rem;
+}
+
+.bottom-content-list p{
+
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+
 }
